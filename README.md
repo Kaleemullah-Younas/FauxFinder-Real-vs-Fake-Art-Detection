@@ -3,12 +3,36 @@
 Welcome to **FauxFinder**, a cutting-edge application designed to classify images as **real art** or **AI-generated art** using advanced deep learning models. This project is part of a **course project** and leverages state-of-the-art models like **Custom CNN**, **MobileNetV1**, and **MobileNetV2** to provide accurate predictions. The app is deployed on **Streamlit Cloud**, making it accessible to users worldwide.
 
 ---
+## File Hierarchy
 
-## Preview
+### 1. **Source Code**
+- **`DCGAN.ipynb`**: Contains the source code for training the **DCGAN** model to generate fake art images based on real art images.
+- **`CNN and Pre-trained Models.ipynb`**: Contains the source code for training and fine-tuning **CNN** models, including **MobileNetV1** and **MobileNetV2**, for art image classification.
 
-![FauxFinder Demo](https://github.com/Kaleemullah-Younas/FauxFinder-Real-vs-Fake-Art-Detection/blob/main/demo.gif)  
+### 2. **App Deployment**
+- **`app.py`**: Contains the source code for the deployed **web application** that uses the trained models to classify real vs. fake art images.
 
+### 3. **Model Files**
+- **`MobileNetV1_finetuned_models.keras`**: The fine-tuned **MobileNetV1** model for art image classification.
+- **`MobileNetV2_finetuned_models.keras`**: The fine-tuned **MobileNetV2** model for art image classification.
+- **`my_cnn.keras`**: The custom-trained **CNN** model for art image classification.
+
+### 4. **Literature Review**
+- **`Literature Review Folder/`**: Contains **research papers** that were reviewed as part of the project.
+- **`literature_review_summary.pdf`**: Contains a **summary** of all the research papers that were reviewed.
+
+### 5. **Images**
+- **`images/`**: Contains images used in the final report and related visualizations.
+
+### 6. **Extra Files**
+- **`.idea/`**: Contains configuration files for the **IDE** (not essential for the project but required for the development environment).
+- **`.gitattribute`**: Git configuration file for handling special file attributes.
+- **`requirements.txt`**: Contains the list of **Python dependencies** required to run the project.
+- **`LICENSE`**: The **license** file for this repository.
+- **`README.md`**: This file, providing an overview of the project and the repository structure.
+- **`demo.gif`**: A **demonstration** of the app or a visual showing the functionality of the project.
 ---
+
 ## 🚀 Introduction & Objective
 
 The **FauxFinder** project aims to distinguish between **real art** and **AI-generated art** using deep learning models. With the rise of AI-generated art, this tool provides a reliable way to identify whether an artwork is created by a human or an AI. The app allows users to upload images and receive predictions with confidence scores, helping them understand the nature of the artwork.
@@ -46,8 +70,13 @@ The primary objective is to provide an **easy-to-use interface** for classifying
 
 The tool is deployed on **Streamlit Cloud**, making it accessible to users worldwide.
 
-**Streamlit App Link**: [FauxFinder Tool](https://fauxfinder-real-vs-fake-art-detection.streamlit.app/)
+**Streamlit App Link**: [Live Running App](https://fauxfinder-real-vs-fake-art-detection.streamlit.app/)
 
+## Preview
+
+![FauxFinder Demo](https://github.com/Kaleemullah-Younas/FauxFinder-Real-vs-Fake-Art-Detection/blob/main/demo.gif)  
+
+---
 ---
 
 ## 🛠️ How to Run the Project
