@@ -1,6 +1,6 @@
 # 🎨 FauxFinder: Real vs Fake Art Detection
 
-Welcome to **FauxFinder**, a cutting-edge application designed to classify images as **real art** or **AI-generated art** using advanced deep learning models. This project is part of a **college capstone project** and leverages state-of-the-art models like **Custom CNN**, **MobileNetV1**, and **MobileNetV2** to provide accurate predictions. The app is deployed on **Streamlit Cloud**, making it accessible to users worldwide.
+Welcome to **FauxFinder**, a cutting-edge application designed to classify images as **real art** or **AI-generated art** using advanced deep learning models. This project is part of a **course project** and leverages state-of-the-art models like **Custom CNN**, **MobileNetV1**, and **MobileNetV2** to provide accurate predictions. The app is deployed on **Streamlit Cloud**, making it accessible to users worldwide.
 
 ---
 
@@ -46,7 +46,7 @@ The primary objective is to provide an **easy-to-use interface** for classifying
 
 The tool is deployed on **Streamlit Cloud**, making it accessible to users worldwide.
 
-**Streamlit App Link**: [FauxFinder App](https://fauxfinder-real-vs-fake-art-detection.streamlit.app/)
+**Streamlit App Link**: [FauxFinder Tool](https://fauxfinder-real-vs-fake-art-detection.streamlit.app/)
 
 ---
 
