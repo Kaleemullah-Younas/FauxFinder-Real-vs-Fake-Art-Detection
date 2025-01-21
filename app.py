@@ -117,7 +117,7 @@ if uploaded_file:
     # Display results
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image(image, caption=f"Uploaded Image - {uploaded_file.name}", use_column_width=True)
+        st.image(image, caption=f"Uploaded Image - {uploaded_file.name}", use_container_width=True)
 
     with col2:
         if class_label == 0:
